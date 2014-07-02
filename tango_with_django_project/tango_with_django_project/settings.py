@@ -21,8 +21,14 @@ SECRET_KEY = '9v806(iks!5n9-aqapla2h6lyl4_7nk6@xbl1&y*70*0w!&djp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 TEMPLATE_DEBUG = True
+SETTINGS_DIR = os.path.dirname(__file__)
+PROJECT_PATH = os.path.join(SETTING_DIR, os.pardir)
+PROJECT_PATH = os.path.abspath(PROJECT_PATH)
+
+TEMPLATE_PATH =  ( os.path.join(PROJECT_PATH,'templates')
+
+TEAMPLATE_DIRS = (TEMPLATE_PATH)    
 
 ALLOWED_HOSTS = []
 
