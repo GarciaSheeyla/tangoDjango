@@ -28,7 +28,7 @@ PROJECT_PATH = os.path.abspath(PROJECT_PATH)
 
 TEMPLATE_PATH =  ( os.path.join(PROJECT_PATH,'templates')
 
-TEAMPLATE_DIRS = (TEMPLATE_PATH)    
+TEMPLATE_DIRS = (TEMPLATE_PATH)    
 
 ALLOWED_HOSTS = []
 
